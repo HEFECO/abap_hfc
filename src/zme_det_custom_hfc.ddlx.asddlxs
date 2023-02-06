@@ -1,0 +1,13 @@
+@Metadata.layer: #CORE
+annotate view z_b_det_custo_hfc
+    with 
+{
+    @UI.lineItem: [{ position: 10, importance: #HIGH }]
+    Nombre;
+    @UI.lineItem: [{ position: 20, importance: #HIGH }]
+    Apellido;
+    @UI.lineItem: [{ position: 30, importance: #HIGH }]
+    Correo;
+    @UI.lineItem: [{ position: 40, importance: #HIGH, label: 'tipo de contrato' }]
+    TipoContrato;    
+}
